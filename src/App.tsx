@@ -909,11 +909,11 @@ export default function App() {
             exit={{ scale: 0.5, opacity: 0, y: -50 }}
             className="fixed top-1/4 left-1/2 -translate-x-1/2 z-[100] pointer-events-none"
           >
-            <div className="relative">
+            <div className="relative flex items-baseline whitespace-nowrap justify-center">
               <span className="text-7xl md:text-9xl font-black text-transparent bg-clip-text bg-gradient-to-b from-[#FF5A5A] to-[#D04040] drop-shadow-[0_8px_0_#634C32] italic">
                 {combo}
               </span>
-              <span className="text-3xl md:text-5xl font-black text-[#634C32] ml-2 drop-shadow-[0_4px_0_#FFFFFF]">
+              <span className="text-3xl md:text-5xl font-black text-[#634C32] ml-2 drop-shadow-[0_4px_0_#FFFFFF] whitespace-nowrap">
                 連続正解！！
               </span>
               <motion.div 
